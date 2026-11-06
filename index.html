@@ -3,34 +3,48 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ANTANOSTAR | Streetwear</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ANTANOSTAR | Streetwear Madagascar</title>
+<meta name="description" content="ANTANOSTAR Streetwear Madagascar. Découvrez nos T-shirts et shorts. Commandez sur WhatsApp.">
 
 <style>
-*{box-sizing:border-box}
-body{margin:0;font-family:Arial,sans-serif;background:#fff;color:#111}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#f7f7f7;color:#171717}
 header{background:#111;color:white;padding:20px;text-align:center}
-header h1{margin:0;letter-spacing:3px}
-header span{color:#e32636}
-.hero{background:#111;color:white;text-align:center;padding:65px 20px}
-.hero h2{font-size:42px;margin:0 0 15px}
-.hero p{font-size:18px}
-.btn{display:inline-block;background:#e32636;color:white;padding:14px 22px;text-decoration:none;border-radius:5px;font-weight:bold}
-section{padding:35px 20px}
-h2{text-align:center}
-.products{display:grid;grid-template-columns:1fr 1fr;gap:15px}
-.product{border:1px solid #ddd;border-radius:8px;overflow:hidden}
-.photo{height:180px;display:flex;align-items:center;justify-content:center;color:white;font-weight:bold;font-size:22px;text-align:center}
-.red{background:#c71925}
-.blue{background:#075c9b}
-.black{background:#222}
+header h1{font-size:30px;letter-spacing:3px}
+header h1 span{color:#e32636}
+header p{margin-top:8px;color:#ccc}
+nav{background:#222;padding:13px;text-align:center}
+nav a{color:white;text-decoration:none;margin:0 12px;font-size:14px}
+.hero{background:linear-gradient(135deg,#111,#333);color:white;text-align:center;padding:75px 20px}
+.hero h2{font-size:38px;margin-bottom:15px}
+.hero h2 span{color:#e32636}
+.hero p{font-size:16px;color:#ddd;margin-bottom:25px}
+.btn{display:inline-block;background:#e32636;color:white;padding:13px 22px;text-decoration:none;border-radius:5px;font-weight:bold}
+.btn:hover{background:#b51d2b}
+section{padding:45px 18px}
+.section-title{text-align:center;font-size:27px;margin-bottom:30px}
+.products{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;max-width:1000px;margin:auto}
+.product{background:white;border-radius:10px;overflow:hidden;box-shadow:0 3px 12px #0001}
+.product img{width:100%;height:220px;object-fit:contain;background:#eee}
 .info{padding:15px}
-.price{font-size:20px;font-weight:bold;color:#e32636}
-.info p{font-size:14px;line-height:1.5}
-.info .btn{font-size:13px;padding:10px}
-.contact{background:#f3f3f3;text-align:center}
-footer{background:#111;color:white;text-align:center;padding:20px}
-@media(max-width:450px){.products{grid-template-columns:1fr}.hero h2{font-size:32px}}
+.info h3{font-size:18px;margin-bottom:10px}
+.price{font-size:20px;color:#e32636;font-weight:bold;margin-bottom:10px}
+.info p{font-size:14px;line-height:1.6;color:#555;margin-bottom:12px}
+.info .btn{font-size:13px;padding:11px 14px}
+.about{background:#111;color:white;text-align:center}
+.about p{max-width:600px;margin:auto;line-height:1.8;color:#ddd}
+.contact{background:#eee;text-align:center}
+.contact p{margin:12px 0;line-height:1.7}
+footer{background:#111;color:#aaa;text-align:center;padding:22px;font-size:13px}
+@media(max-width:550px){
+.products{grid-template-columns:1fr 1fr;gap:10px}
+.product img{height:160px}
+.info{padding:10px}
+.info h3{font-size:15px}
+.info .btn{font-size:11px;padding:10px 8px}
+.hero h2{font-size:30px}
+}
 </style>
 </head>
 
@@ -38,61 +52,106 @@ footer{background:#111;color:white;text-align:center;padding:20px}
 
 <header>
 <h1>ANTA<span>NOSTAR</span></h1>
-<p>Streetwear • Style • Identité</p>
+<p>STREETWEAR • STYLE • IDENTITÉ</p>
 </header>
 
-<div class="hero">
-<h2>TON STYLE.<br>TON IDENTITÉ.</h2>
+<nav>
+<a href="#accueil">Accueil</a>
+<a href="#produits">Produits</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="hero" id="accueil">
+<h2>TON STYLE.<br><span>TON IDENTITÉ.</span></h2>
 <p>Tsy marika fotsiny, fa maha-ianao anao.</p>
-<a class="btn" href="https://wa.me/261374748349">
-Commander sur WhatsApp
-</a>
+<a class="btn" href="#produits">DÉCOUVRIR NOS PRODUITS</a>
 </div>
 
-<section>
-<h2>Nos produits</h2>
+<section id="produits">
+<h2 class="section-title">NOS PRODUITS</h2>
 
 <div class="products">
 
 <div class="product">
-<div class="photo red">ANTANOSTAR<br>SHORT</div>
+<img src="Short%20rouge%20and%20bleu.jpg" alt="Short Antanostar rouge et bleu">
 <div class="info">
-<h3>Short ANTANOSTAR</h3>
+<h3>SHORT ANTANOSTAR</h3>
 <div class="price">48 000 Ar</div>
 <p>Couleurs : Rouge et Bleu<br>Taille : M</p>
-<a class="btn" href="https://wa.me/261374748349?text=Salama%2C%20te%20hanafatra%20short%20ANTANOSTAR%20aho">
-Commander
-</a>
+<a class="btn" href="https://wa.me/261374748349?text=Salama%2C%20te%20hanafatra%20Short%20ANTANOSTAR%20aho.">COMMANDER</a>
 </div>
 </div>
 
 <div class="product">
-<div class="photo black">ANTANOSTAR<br>T-SHIRT</div>
+<img src="Short%20bleu.png" alt="Short Antanostar bleu">
 <div class="info">
-<h3>T-shirt ANTANOSTAR</h3>
-<div class="price">35 000 Ar</div>
-<p>Tailles : S, M, L, XL<br>Couleurs : Noir, Blanc, Rouge, Bleu</p>
-<a class="btn" href="https://wa.me/261374748349?text=Salama%2C%20te%20hanafatra%20T-shirt%20ANTANOSTAR%20aho">
-Commander
-</a>
+<h3>SHORT BLEU</h3>
+<div class="price">48 000 Ar</div>
+<p>Collection ANTANOSTAR<br>Taille : M</p>
+<a class="btn" href="https://wa.me/261374748349?text=Salama%2C%20te%20hanafatra%20Short%20bleu%20aho.">COMMANDER</a>
 </div>
 </div>
 
+<div class="product">
+<img src="TA%20crown%20two%20noir.jpg" alt="T-shirt Antanostar noir">
+<div class="info">
+<h3>T-SHIRT NOIR</h3>
+<div class="price">35 000 Ar</div>
+<p>Collection ANTANOSTAR<br>Tailles : S, M, L, XL</p>
+<a class="btn" href="https://wa.me/261374748349?text=Salama%2C%20te%20hanafatra%20T-shirt%20noir%20aho.">COMMANDER</a>
+</div>
+</div>
+
+<div class="product">
+<img src="TA%20rouge.png" alt="T-shirt Antanostar rouge">
+<div class="info">
+<h3>T-SHIRT ROUGE</h3>
+<div class="price">35 000 Ar</div>
+<p>Collection ANTANOSTAR<br>Tailles : S, M, L, XL</p>
+<a class="btn" href="https://wa.me/261374748349?text=Salama%2C%20te%20hanafatra%20T-shirt%20rouge%20aho.">COMMANDER</a>
+</div>
+</div>
+
+<div class="product">
+<img src="TA%20bleu.png" alt="T-shirt Antanostar bleu">
+<div class="info">
+<h3>T-SHIRT BLEU</h3>
+<div class="price">35 000 Ar</div>
+<p>Collection ANTANOSTAR<br>Tailles : S, M, L, XL</p>
+<a class="btn" href="https://wa.me/261374748349?text=Salama%2C%20te%20hanafatra%20T-shirt%20bleu%20aho.">COMMANDER</a>
+</div>
+</div>
+
+<div class="product">
+<img src="TA%20sipa%20noir.jpg" alt="T-shirt Antanostar noir collection">
+<div class="info">
+<h3>T-SHIRT COLLECTION</h3>
+<div class="price">35 000 Ar</div>
+<p>Collection ANTANOSTAR<br>Tailles : S, M, L, XL</p>
+<a class="btn" href="https://wa.me/261374748349?text=Salama%2C%20te%20hanafatra%20T-shirt%20ANTANOSTAR%20aho.">COMMANDER</a>
+</div>
+</div>
+
+</div>
 </section>
 
-<section class="contact">
-<h2>Contact & Commande</h2>
-<p>WhatsApp : 037 47 483 49</p>
-<p>V.I.P Voice Record<br>À côté de l’hôtel Tournesol</p>
-<a class="btn" href="https://wa.me/261374748349">
-Nous contacter
-</a>
+<section class="about">
+<h2 class="section-title">À PROPOS</h2>
+<p>ANTANOSTAR est une marque de streetwear à Madagascar.<br>
+Tsy marika fotsiny, fa maha-ianao anao.<br>
+Exprime ton style. Affirme ton identité.</p>
+</section>
+
+<section class="contact" id="contact">
+<h2 class="section-title">CONTACT & COMMANDES</h2>
+<p><strong>WhatsApp :</strong> 037 47 483 49</p>
+<p><strong>Point de vente :</strong><br>V.I.P Voice Record, à côté de l'hôtel Tournesol</p>
+<a class="btn" href="https://wa.me/261374748349">CONTACTER SUR WHATSAPP</a>
 </section>
 
 <footer>
-© ANTANOSTAR — Tous droits réservés.
+© ANTANOSTAR - Tous droits réservés.
 </footer>
 
 </body>
-  </html>
-  
+</html>
